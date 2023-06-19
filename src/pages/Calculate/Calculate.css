@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif+Caption:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
+
+.main-wrapper {
+    border: 4px rgb(2, 2, 57) solid;
+    width: 100%;
+    background: linear-gradient(to bottom left, #ffffff 0%, #808080 100%);
+    margin: 0 auto;
+}
+
+.container-program {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.home-link {
+    color: #ffffff;
+    border: 2px #ffffff solid;
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgb(46, 46, 48);
+}
+
+.home-link:hover {
+    
+    border: 2px rgb(40, 216, 34) solid ;
+}
+
+.box-wrapper-1 {
+    max-width: 100%;
+    margin: 50px auto 0;
+}
+.name-program{
+    background: gray;
+}
+
+.box-wrapper-2 {
+    margin: 50px auto;
+}
+
+.photo-cars {
+    padding: 20px;
+}
+
+.polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.rotate_right {
+    float: left;
+    transform: rotate(7deg);
+}
+
+.rotate_left {
+    float: left;
+    transform: rotate(-8deg);
+}
+
+p {
+    padding: 20px 0 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+
+/* h1 {
+
+    font-size: 20px;
+    font-weight: 400;
+    background: rgb(5, 15, 57);
+    box-shadow: 5px 10px 20px white inset;
+    color: rgb(245, 251, 245);
+    font-family: system-ui;
+    height: 80px;
+} */
+.header-program {
+    background-color: rgb(61, 61, 63);
+    color: #ffffff;
+    text-align: center;
+    font-family: "Montserrat";
+    letter-spacing: 0.3em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: "Montserrat";
+    letter-spacing: 0.3em;
+}
+
+.cars,
+.cargo {
+    font-weight: 400;
+    /* color: white; */
+    box-shadow: 20px 10px 50px black;
+    font-family: system-ui;
+    border-radius: 5px;
+    /* background: linear-gradient(to bottom left, #808080 0%, #000000 100%); */
+    padding: 20px;
+    border: 2px white solid;
+}
+
+
+label,
+input,
+select {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* opacity: .8; */
+    font-weight: 400;
+    font-family: "Montserrat";
+
+}
+
+#calculateBtn {
+    display: block;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 400;
+    background: rgb(100, 98, 98);
+    box-shadow: 5px 10px 20px white inset;
+    color: rgb(2, 2, 57);
+    font-family: system-ui;
+    border-radius: 5px;
+    margin: 0 auto 50px;
+    cursor: pointer;
+}
+
+#calculateBtn:hover {
+    background: rgb(100, 98, 98);
+    box-shadow: 20px 10px 50px white inset;
+    color: rgb(40, 216, 34);
+}
+
+.routes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.way {
+    font-size: 40px;
+    font-family: "Montserrat";
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.route,
+.offroad {
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 20px 10px 50px black;
+    font-family: system-ui;
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px white solid;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+
+
+.addBtn,
+.subtractBtn {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 50px;
+    background: rgb(100, 98, 98);
+    box-shadow: 5px 10px 20px white inset;
+    color: rgb(2, 2, 57);
+}
+
+.addBtn:hover,
+.subtractBtn:hover {
+    background: rgb(100, 98, 98);
+    box-shadow: 20px 10px 50px white inset;
+    color: rgb(40, 216, 34);
+}
+
+.amountFuel {
+    font-weight: 700;
+    box-shadow: 20px 10px 50px black;
+    font-family: system-ui;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 50px;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px white solid;
+}
+.result{
+    border: 5px white solid;
+    width: 400px;
+    text-align: center;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 20px 10px 50px black;
+    font-size: 2em;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-top: 25px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .container-program {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-program {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 616px) {
+
+    .rotate_right {
+        float: none;
+    }
+
+    .home-link{
+        display: block;
+        margin: 20px auto 20px;
+    }
+    label, input, select{
+        width: 360px;
+        max-width: 100%;
+    }
+    .cars, .cargo{
+        width: 400px;
+        max-width: 100%;
+    }
+    .amountFuel{
+        width: 400px;
+        max-width: 100%;
+    }
+    #calculateBtn{
+        width: 200px;
+        font-size: 25px;
+    }
+    .addBtn, .subtractBtn{
+        width: 60px;
+        height: 60px;
+        font-size: 35px;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    
+    label, input, select,
+    .cars, .cargo,
+    .result,
+    .amountFuel{
+        width: 100%;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+}
